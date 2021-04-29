@@ -1,2 +1,1 @@
 # storyBook
-A learning project
