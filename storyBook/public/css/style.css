@@ -1,0 +1,74 @@
+.parallax {
+    /* The image used */
+    background-image: url("../img/eventPic3.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: #e2b071;
+}
+
+a:hover {
+    color: #cb973a;
+}
+
+.img {
+    width: 40px;
+    height: 30px;
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, #111213, #90908d);
+}
+
+.footer1 {
+    border-top: 30px solid  #544734;
+    border-bottom: 1px solid #544734;
+}
+
+.footer2 {
+    border-top: 1px solid #544734;
+}
+
+.background {
+    background-image: linear-gradient(to top right, #111213, #90908d);
+}
+
+.login{
+    background-color: #343a40;
+}
+.name{
+    color:#544734;
+}
+
+.border{
+    text-decoration: underline;
+    color:white;
+    width: 120px;
+}
+
+.icon{
+    width:30px;
+    height: 30px;
+    margin-left:10px;
+    float:right;
+    border:1px solid #cb973a;
+}
+
+.icon:hover{
+    box-shadow: 1px 1px 6px 0px  #cb973a;
+}
+
+.card-deck {
+    margin-left:0px !important;
+    margin-right:0px !important;
+
+}
