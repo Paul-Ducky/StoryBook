@@ -19,12 +19,23 @@ a {
 
 a:hover {
     color: #cb973a;
+    cursor: pointer;
 }
 
 /* text */
 .name {
     color: #b9a994;
     text-align: center;
+}
+
+.header{
+    color: #b9a994;
+    text-align: center;
+    font-size:100px;
+    font-weight: bold;
+    font-family: "DejaVu Serif", serif;
+    max-width: 100%;
+    height: 200px;
 }
 
 /* images/icons */
@@ -43,6 +54,7 @@ a:hover {
 
 .icon:hover {
     box-shadow: 0px 0px 5px 2px #a78761;
+    cursor: pointer;
 }
 
 /* footer */
@@ -70,8 +82,22 @@ footer {
     background-image: linear-gradient(to top right, #111213, #90908d);
 }
 
+.button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid #b9a994;
+    cursor:pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 40%;
+    height: 40px;
+    color:#DDDD;
+}
+
 .button:hover {
     color: #b9a994;
+    background-color: #313030;
+    cursor: pointer;
 }
 
 /* format styling (login, registration) */
@@ -112,9 +138,59 @@ footer {
 
 .card:hover {
     box-shadow: 1px 1px 6px 3px #c2b495;
+    cursor: pointer;
 }
 
+.cardDashboard{
+    max-height: 400px;
+    position: center;
+    width: 100%;
+    height: auto;
+}
 
+.box {
+    position: relative;
+    max-width: 100%;
+}
+.box img {
+    width: 100%;
+    height: auto;
+}
 
+.box .btn1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(20%, -50%);
+    width: 30%;
+    height: 20%;
+    cursor: pointer;
+    background-color: rgba(47, 45, 45, 0.6);
+    border-radius: 10px;
+    color: #c8c2bc;
+    font: 30px bold;
+    box-shadow: 1px 1px 6px 0px #232121;
+}
 
+.box .btn2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-120%, -50%);
+    width: 30%;
+    height: 20%;
+    cursor: pointer;
+    background-color: rgba(47, 45, 45, 0.6);
+    border-radius: 10px;
+    color: #c8c2bc;
+    font: 30px bold;
+    box-shadow: 1px 1px 6px 0px #232121;
+}
 
+.btn2:hover {
+    box-shadow: 1px 1px 8px 2px #232121;
+}
+
+.btn1:hover {
+    box-shadow: 1px 1px 8px 2px #232121;
+}
